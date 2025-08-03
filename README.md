@@ -28,21 +28,21 @@ A modular desktop application built with PySide6 for document interaction, PDF c
     │   │   ├── __init__.py
     │   │   ├── styles.py
     │   │   └── utils.py
-    │   └── rag/
-    │       ├── __init__.py
-    │       ├── embedder.py
-    │       ├── llm_client.py
-    │       ├── llm_router.py
-    │       ├── preprocessor.py
-    │       ├── prompt_type.py
-    │       ├── utils.py
-    │       └── vector_store.py
-    ├── views/
-    │   ├── doc_qa.py
-    │   └── image_converter.py
-    ├── main_window.py
-    ├── main.py
-    ├── __init__.py
+    │   ├── rag/
+    │   │   ├── __init__.py
+    │   │   ├── embedder.py
+    │   │   ├── llm_client.py
+    │   │   ├── llm_router.py
+    │   │   ├── preprocessor.py
+    │   │   ├── prompt_type.py
+    │   │   ├── utils.py
+    │   │   └── vector_store.py
+    │   ├── views/
+    │   │   ├── doc_qa.py
+    │   │   └── image_converter.py
+    │   ├── main_window.py
+    │   ├── main.py
+    │   └── __init__.py
     ├── notebooks/
     │   └── pdf_text_qa.ipynb
     ├── .gitignore
