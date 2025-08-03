@@ -1,0 +1,15 @@
+[project]
+name = "DocuWizard"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Onkar Apte", email = "onkarapte21@gmail.com"},
+]
+dependencies = ["pytesseract>=0.3.13", "pillow>=11.3.0", "easyocr>=1.7.2", "torch>=2.7.1", "torchvision>=0.22.1", "torchaudio>=2.7.1", "transformers>=4.53.2", "opencv-python>=4.12.0.88", "onnxruntime>=1.22.1", "rapidocr>=3.2.0", "pymupdf>=1.26.3", "faiss-cpu>=1.11.0.post1", "sentence-transformers>=5.0.0", "PySide6[full]>=6.9.1", "openai>=1.97.1", "spacy>=3.8.7", "markdown>=3.8.2", "python-dotenv>=1.1.1"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
